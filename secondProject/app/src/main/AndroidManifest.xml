@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.secondproject">
+
+    <application
+            android:allowBackup="true"
+            android:icon="@drawable/icon1"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name=".UpdateMenteeFinalActivity">
+        </activity>
+        <activity android:name=".UpdateMentorFinalActivity">
+        </activity>
+        <activity android:name=".UpdateMenteeActivity">
+        </activity>
+        <activity android:name=".UpdateMentorActivity">
+        </activity>
+        <activity android:name=".DeleteMenteeActivity">
+        </activity>
+        <activity android:name=".DeleteMentorActivity">
+        </activity>
+        <activity android:name=".SearchMenteeViewSelect">
+        </activity>
+        <activity android:name=".SearchMentorViewSelect">
+        </activity>
+        <activity android:name=".SearchMenteeViewAll">
+        </activity>
+        <activity android:name=".SearchMentorViewAll">
+        </activity>
+        <activity android:name=".SearchMenteeActivity">
+        </activity>
+        <activity android:name=".SearchMentorActivity">
+        </activity>
+        <activity android:name=".RegisterMenteeActivity">
+        </activity>
+        <activity android:name=".RegisterMentorActivity">
+        </activity>
+        <activity android:name=".PartActivity">
+        </activity>
+        <activity android:name=".MenuActivity">
+        </activity>
+        <activity android:name=".StartActivity">
+        </activity>
+        <activity android:name=".SearchActivity">
+        </activity>
+        <activity android:name=".SsActivity">
+        </activity>
+        <activity android:name=".RtActivity">
+        </activity>
+        <activity android:name=".RegisterActivity">
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <meta-data
+                android:name="preloaded_fonts"
+                android:resource="@array/preloaded_fonts"/>
+    </application>
+
+</manifest>
